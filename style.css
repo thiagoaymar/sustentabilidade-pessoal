@@ -45,10 +45,11 @@ header {
 	height: 500px;
 	top: 200px;
 	left: 150px;
+	padding: 15px;
 
 }
 
 #ordem-artigo {
-	font-size: 10px;
+	font-size: 20px;
 	color: gray;
 }
