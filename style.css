@@ -4,6 +4,32 @@ Site criado por Thiago Aymar
 
 */
 
+/* Fonts */
+
+@font-face {
+  font-family: 'TastyBirds';
+  src: url('fonts/TastyBirds.eot');
+  src: url('fonts/TastyBirds.woff2') format('woff2'),
+       url('fonts/TastyBirds.woff') format('woff'),
+       url('fonts/TastyBirds.ttf') format('truetype'),
+       url('fonts/TastyBirds.svg#TastyBirds') format('svg'),
+       url('fonts/TastyBirds.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DKMoreOrLess-Regular';
+  src: url('fonts/DKMoreOrLess-Regular.eot');
+  src: url('fonts/DKMoreOrLess-Regular.woff2') format('woff2'),
+       url('fonts/DKMoreOrLess-Regular.woff') format('woff'),
+       url('fonts/DKMoreOrLess-Regular.ttf') format('truetype'),
+       url('fonts/DKMoreOrLess-Regular.svg#DKMoreOrLess-Regular') format('svg'),
+       url('fonts/DKMoreOrLess-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
 	margin: 0;
 	height: 100%;
@@ -21,19 +47,25 @@ header {
 }
 
 .titulo {
-	position: absolute;
-	left: 50px;
+	position: relative;
+	left: 331.335px;
+	width: 600px;
+
 }
 
 .titulo h1 {
-	font-size: 30px;
+	font-family: 'TastyBirds', sans-serif;
+	font-size: 60px;
 	margin: 0;
 }
 
 .titulo h2 {
+	position: absolute;
 	font-size: 15px;
 	margin: 0;
-
+	font-family: 'DKMoreOrLess-Regular', sans-serif;
+	width: 120px;
+	left: 480px;
 }
 
 /* TimeLine */
